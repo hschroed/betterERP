@@ -5,8 +5,8 @@
 // @author     Daniel Henschel
 // @namespace  gateprotect
 // @include    https://10.0.0.199/erp/view_support_jobs.php
-// @updateURL  https://github.com/dhsl/betterERP/master/betterERP.user.js
-// @downloadURL https://github.com/dhsl/betterERP/master/betterERP.user.js
+// @updateURL  https:///github.com/hschroed/betterERP/master/betterERP.user.js
+// @downloadURL https://github.com/hschroed/betterERP/master/betterERP.user.js
 // ==/UserScript==
 
 // nav bar
