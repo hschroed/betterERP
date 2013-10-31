@@ -14,23 +14,19 @@
 mainNav = document.getElementById('nav').children;
 mainNav[0].style.display = 'none'; // email
 mainNav[1].style.display = 'none'; // customer list
-mainNav[3].style.display = 'none'; // statistics
+mainNav[4].style.display = 'none'; // statistics
+mainNav[5].style.display = 'none'; // statistics
+mainNav[6].style.display = 'none'; // statistics
+
 
 // main site
 // ---------------------------------------------------------------------
 mainTables = document.getElementById('main').getElementsByTagName('table');
 
-// support tab
-supportTab = document.getElementById('tab');
-supportTab.style.display = 'none'; // tab 'Support'
 
-// status tabs
-statusTabs = mainTables[0].getElementsByTagName('td');
-statusTabs[1].style.display = 'none'; // zuordnen
-statusTabs[2].style.display = 'none'; // spacer
 
 // ticketlist spacing
-ticketCols = mainTables[2].getElementsByTagName('col');
+ticketCols = mainTables[0].getElementsByTagName('col');
 ticketCols[3].style.display  = 'none'; //  3 = interner termin
 ticketCols[6].style.display  = 'none'; //  6 = start
 ticketCols[7].style.display  = 'none'; //  7 = ende
@@ -38,7 +34,7 @@ ticketCols[11].style.display = 'none'; // 11 = angelegt
 ticketCols[14].style.display = 'none'; // 14 = kategorie
 
 // ticketlist
-ticketRows = mainTables[2].getElementsByTagName('tr');
+ticketRows = mainTables[0].getElementsByTagName('tr');
 for(var i = 0; i < ticketRows.length; ++i) {
     if(ticketRows[i].className == 'tablesorter-headerRow')
         ticketCells = ticketRows[i].getElementsByTagName('th');
