@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       betterERP support overview
-// @version    1.3
+// @version    1.4
 // @description Make the ERP work
 // @author     Daniel Henschel
 // @namespace  gateprotect
