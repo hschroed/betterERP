@@ -65,12 +65,6 @@ for(var i = 0; i < myCSS.length; i++)
     document.styleSheets[0].insertRule(myCSS[i], document.styleSheets[0].cssRules.length);
     
     
-    // here's the build of the new script, one line at a time
-scriptCode.push('document.onkeydown = function (e) { return true;} ');
-
-    
-// now, we put the script in a new script element in the DOM
-var script = document.createElement('script');    // create the script element
-script.innerHTML = scriptCode.join('\n');         // add the script code to it
-scriptCode.length = 0;                            // recover the memory we used to build the script
-
+document.onkeydown = function (e) {
+	return true;
+} 
